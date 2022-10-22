@@ -36,7 +36,7 @@ def calculate_path(total_costs, point):
                     get_step(i - 1, j + 1),
                     get_step(i + 1, j - 1),
                     get_step(i - 1, j - 1),
-                    get_step(i , j )])
+                    get_step(i, j)])
         return get_step(i = point[0], j = point[1])
     def get_coast(n):
         if n == 1:
