@@ -28,7 +28,7 @@ def print_my_call():
         #print(set(list_wish))
             #print(wish)
 
-    #print(list_wish[n])
+
 
 
 print_my_call()
