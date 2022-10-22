@@ -39,4 +39,4 @@ for slog in range(1, count_slog + 1):
                     list_count_player.pop()
                     pointer -= 1
 
-                    print(list_count_player)
+                    print(num)
