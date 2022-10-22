@@ -1,4 +1,4 @@
-text = "flfkxkckg lglglglvl glofkg, fkfkfkfrdr."
+text = "flfkxkckg lglgllvl glog, fkfkfkfrdr."
 modify_text = text.replace(" ", "")
 modify_text = modify_text.replace(",", "")
 modify_text = modify_text.replace(".", "")
@@ -30,7 +30,7 @@ for slog in range(1, count_slog + 1):
     #         list_count_player.pop()
     #         pointer -= 1
 
-    while player > 1:
+    while player > slog:
             if player == 1:
                 print("победитель", player)
             else:
