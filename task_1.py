@@ -30,13 +30,13 @@ for slog in range(1, count_slog + 1):
     #         list_count_player.pop()
     #         pointer -= 1
 
-    while  player > 1:
-        if count_slog % count_pleyer == 0:
-            list_count_player.pop()
+    while player > 1:
             if player == 1:
                 print("победитель", player)
             else:
-                list_count_player.pop()
-                pointer -= 1
+                num = count_slog % count_pleyer
+                for num in range(1, len(list_count_player)+1):
+                    list_count_player.pop()
+                    pointer -= 1
 
-print(list_count_player)
+                    print(list_count_player)
