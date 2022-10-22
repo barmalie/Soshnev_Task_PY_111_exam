@@ -1,4 +1,3 @@
-
 coasts = [[2, 7, 9, 3], [12, 4, 1, 9], [1, 5, 2, 5]]
 
 total_coasts = [[0 for _ in range(len(coasts[0]))] for _ in range(len(coasts))]#таблица стоимостей
