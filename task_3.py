@@ -1,4 +1,5 @@
 import random
+
 def print_my_call():
     count = []
     range_ = range(random.randint(1, 23))
@@ -14,18 +15,18 @@ def print_my_call():
     n = 0
     list_wish = []
     for wish in sort_index:
-        if sort_index[n+1][0] > sort_index[n][1]:
+        #if sort_index[n+1][0] > sort_index[n][1]:
 
-            if sort_index[n+1][1] > sort_index[n][1] and sort_index[n+1][0] > sort_index[n][0]:
-                list_wish.append(wish)
-                #print(list_wish)
-            else:
-                print(wish)
+        if sort_index[n+1][0] > sort_index[n][1] and sort_index[n+1][1] > sort_index[n][1] and sort_index[n+1][0] > sort_index[n][0]:
+            list_wish.append(wish)
+            print(wish)
+        #else:
+            #print(wish)
 
-        if sort_index[n+1][0] > sort_index[n][1]:
+        #if sort_index[n+1][0] > sort_index[n][1]:
 
         #print(set(list_wish))
-            print(wish)
+            #print(wish)
 
     #print(list_wish[n])
 
